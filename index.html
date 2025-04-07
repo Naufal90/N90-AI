@@ -42,6 +42,8 @@
 			<button class="btn btn-success" onclick="sendMessage()">Ask!</button>
 			<div id="response"></div>
 		</div>
+		<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+		<script>eruda.init();</script>
 		<script>
 			async function sendMessage() {
 				const input = document.getElementById('userInput').value;
