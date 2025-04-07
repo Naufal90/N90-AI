@@ -57,13 +57,13 @@
 						{
 							method: 'POST',
 							headers: {
-								Authorization: 'Bearer <API Key from Open Router>',
-								'HTTP-Referer': 'https://www.sitename.com',
-								'X-Title': 'SiteName',
+								Authorization: 'Bearer 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',
+								'HTTP-Referer': 'https://www.ai.naufal90.my.id',
+								'X-Title': 'N90-AI',
 								'Content-Type': 'application/json',
 							},
 							body: JSON.stringify({
-								model: 'deepseek/deepseek-r1:free',
+								model: 'openrouter/quasar-alpha',
 								messages: [{ role: 'user', content: input }],
 							}),
 						},
